@@ -18,7 +18,7 @@ These data are then combined to create one final data (finaldata) which contains
 This data is then filtered to select only mean and standard deviation variables
 
 This final data is then split by activity and subject id to create two datasets:
-* One is the activity and the mean of each variable for each activity. Each variable able is appended by the word "activity" to indicate the mean value is for a particular activity. For example "fBodyBodyGyroJerkMagmeanFreqactivity" means the mean of "fBodyBodyGyroJerkMagmean" value for a particular activity 
+* One is the activity and the mean of each variable for each activity. Each variable is appended by the word "activity" to indicate the mean value is for a particular activity. For example "fBodyBodyGyroJerkMagmeanFreqactivity" means the mean of "fBodyBodyGyroJerkMagmean" value for a particular activity 
 * One is tha subject id and the mean of each variable for each subject id. Each variable is appended by the word "subject" to indicate the mean value is for each subject. For example "fBodyBodyGyroJerkMagmeanFreqsubject" means the mean of "fBodyBodyGyroJerkMagmean" value for a particular subject
 
 These two datasets are later combined to create one datasets with subject id, it's activity , the means of variables for each activity and the means of variables for each subject
