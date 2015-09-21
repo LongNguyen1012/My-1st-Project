@@ -1,4 +1,4 @@
-# ## Instruction on run_analysis.R
+#Instruction on run_analysis.R
 
 There are two folders that contain the traaining dataset and the test dataset
 In each folder is an Inertial signal which contains the gravitation and body signal from Samsung device
