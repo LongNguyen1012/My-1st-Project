@@ -109,17 +109,99 @@ In activity_mean data set, each variable name is modified to include "activity" 
 
 Then two data sets are combined by the following method: for each subject id, there will be 6 associated activities(walk, walkupstair, walkdownstair, sit, stand, lay). These activities will be followed by the mean measurements for each activity, and following that is the mean measurement for that particular subject:
 
-subjectid < activity < mean1-activity < mean2-activity < mean1-subject < mean2-subject
-1           walk                  a                   g               A               B
-1           walkupstair           b                   h               A               B
-1           walkdownstair         c                   i               A               B
-1           sit                   d                   j               A               B
-1           stand                 e                   k               A               B
-1           lay                   f                   l               A               B
+*subjectid < activity < mean1-activity < mean2-activity < mean1-subject < mean2-subject
+*1           walk                  a                   g               A               B
+*1           walkupstair           b                   h               A               B
+*1           walkdownstair         c                   i               A               B
+*1           sit                   d                   j               A               B
+*1           stand                 e                   k               A               B
+*1           lay                   f                   l               A               B
 
-The final data set will be stored in data set "new"
+Subject id and activity column are changed to factor for ease in further analysis and indexing
 
-The dimension of "new":
+The final data set will be stored in data set "new" and export to newdata.txt
+
+#Description of the variables in the newdata.txt file
+
+The dimension: 
 
 30 subject x 6 activities = 180 observations (rows) 
-160 variables (columns): include subject id, activity, mean of each variables for each activiti, mean of each variable for each subject
+160 variables (columns): include subject id, activity, mean of each variables for each activity, mean of each variable for each subject
+
+subject id is a factor vector with levels 1-30 indicate the id for each subject.
+activity is a factor with levels: walk, walkupstair, walkdownstair, sit, stand, lay
+list of variables with "activity" at the end of name: indicate the mean of this particular measurement for each variable
+list of variables with "subject" at the end of name: indicate the mean of this particular measurement for each subject
+
+The example data structure is as follow:
+
+*subjectid < activity < mean1-activity < mean2-activity < mean1-subject < mean2-subject
+*1           walk                  a                   g               A               B
+*1           walkupstair           b                   h               A               B
+*1           walkdownstair         c                   i               A               B
+*1           sit                   d                   j               A               B
+*1           stand                 e                   k               A               B
+*1           lay                   f                   l               A               B
+*2           walk                  a                   g               C               D
+*2           walkupstair           b                   h               C               D
+*2           walkdownstair         c                   i               C               D
+*2           sit                   d                   j               C               D
+*2           stand                 e                   k               C               D
+*2           lay                   f                   l               C               D
+
+Variables present in the newdata.txt:
+
+ "subjectid"                            "activity"                             "tBodyAccmeanXactivity"               
+ "tBodyAccmeanYactivity"                "tBodyAccmeanZactivity"                "tBodyAccstdXactivity"                
+ "tBodyAccstdYactivity"                 "tBodyAccstdZactivity"                 "tGravityAccmeanXactivity"            
+ "tGravityAccmeanYactivity"             "tGravityAccmeanZactivity"             "tGravityAccstdXactivity"             
+ "tGravityAccstdYactivity"              "tGravityAccstdZactivity"              "tBodyAccJerkmeanXactivity"           
+ "tBodyAccJerkmeanYactivity"            "tBodyAccJerkmeanZactivity"            "tBodyAccJerkstdXactivity"            
+ "tBodyAccJerkstdYactivity"             "tBodyAccJerkstdZactivity"             "tBodyGyromeanXactivity"              
+ "tBodyGyromeanYactivity"               "tBodyGyromeanZactivity"               "tBodyGyrostdXactivity"               
+ "tBodyGyrostdYactivity"                "tBodyGyrostdZactivity"                "tBodyGyroJerkmeanXactivity"          
+ "tBodyGyroJerkmeanYactivity"           "tBodyGyroJerkmeanZactivity"           "tBodyGyroJerkstdXactivity"           
+ "tBodyGyroJerkstdYactivity"            "tBodyGyroJerkstdZactivity"            "tBodyAccMagmeanactivity"             
+ "tBodyAccMagstdactivity"               "tGravityAccMagmeanactivity"           "tGravityAccMagstdactivity"           
+ "tBodyAccJerkMagmeanactivity"          "tBodyAccJerkMagstdactivity"           "tBodyGyroMagmeanactivity"            
+ "tBodyGyroMagstdactivity"              "tBodyGyroJerkMagmeanactivity"         "tBodyGyroJerkMagstdactivity"         
+ "fBodyAccmeanXactivity"                "fBodyAccmeanYactivity"                "fBodyAccmeanZactivity"               
+ "fBodyAccstdXactivity"                 "fBodyAccstdYactivity"                 "fBodyAccstdZactivity"                
+ "fBodyAccmeanFreqXactivity"            "fBodyAccmeanFreqYactivity"            "fBodyAccmeanFreqZactivity"           
+ "fBodyAccJerkmeanXactivity"            "fBodyAccJerkmeanYactivity"            "fBodyAccJerkmeanZactivity"           
+ "fBodyAccJerkstdXactivity"             "fBodyAccJerkstdYactivity"             "fBodyAccJerkstdZactivity"            
+ "fBodyAccJerkmeanFreqXactivity"        "fBodyAccJerkmeanFreqYactivity"        "fBodyAccJerkmeanFreqZactivity"       
+ "fBodyGyromeanXactivity"               "fBodyGyromeanYactivity"               "fBodyGyromeanZactivity"              
+ "fBodyGyrostdXactivity"                "fBodyGyrostdYactivity"                "fBodyGyrostdZactivity"               
+ "fBodyGyromeanFreqXactivity"           "fBodyGyromeanFreqYactivity"           "fBodyGyromeanFreqZactivity"          
+ "fBodyAccMagmeanactivity"              "fBodyAccMagstdactivity"               "fBodyAccMagmeanFreqactivity"         
+ "fBodyBodyAccJerkMagmeanactivity"      "fBodyBodyAccJerkMagstdactivity"       "fBodyBodyAccJerkMagmeanFreqactivity" 
+ "fBodyBodyGyroMagmeanactivity"         "fBodyBodyGyroMagstdactivity"          "fBodyBodyGyroMagmeanFreqactivity"    
+ "fBodyBodyGyroJerkMagmeanactivity"     "fBodyBodyGyroJerkMagstdactivity"      "fBodyBodyGyroJerkMagmeanFreqactivity"
+ "tBodyAccmeanXsubject"                 "tBodyAccmeanYsubject"                 "tBodyAccmeanZsubject"                
+ "tBodyAccstdXsubject"                  "tBodyAccstdYsubject"                  "tBodyAccstdZsubject"                 
+ "tGravityAccmeanXsubject"              "tGravityAccmeanYsubject"              "tGravityAccmeanZsubject"             
+ "tGravityAccstdXsubject"               "tGravityAccstdYsubject"               "tGravityAccstdZsubject"              
+ "tBodyAccJerkmeanXsubject"             "tBodyAccJerkmeanYsubject"             "tBodyAccJerkmeanZsubject"            
+ "tBodyAccJerkstdXsubject"              "tBodyAccJerkstdYsubject"              "tBodyAccJerkstdZsubject"             
+ "tBodyGyromeanXsubject"                "tBodyGyromeanYsubject"                "tBodyGyromeanZsubject"               
+ "tBodyGyrostdXsubject"                 "tBodyGyrostdYsubject"                 "tBodyGyrostdZsubject"                
+ "tBodyGyroJerkmeanXsubject"            "tBodyGyroJerkmeanYsubject"            "tBodyGyroJerkmeanZsubject"           
+ "tBodyGyroJerkstdXsubject"             "tBodyGyroJerkstdYsubject"             "tBodyGyroJerkstdZsubject"            
+ "tBodyAccMagmeansubject"               "tBodyAccMagstdsubject"                "tGravityAccMagmeansubject"           
+ "tGravityAccMagstdsubject"             "tBodyAccJerkMagmeansubject"           "tBodyAccJerkMagstdsubject"           
+ "tBodyGyroMagmeansubject"              "tBodyGyroMagstdsubject"               "tBodyGyroJerkMagmeansubject"         
+ "tBodyGyroJerkMagstdsubject"           "fBodyAccmeanXsubject"                 "fBodyAccmeanYsubject"                
+ "fBodyAccmeanZsubject"                 "fBodyAccstdXsubject"                  "fBodyAccstdYsubject"                 
+ "fBodyAccstdZsubject"                  "fBodyAccmeanFreqXsubject"             "fBodyAccmeanFreqYsubject"            
+ "fBodyAccmeanFreqZsubject"             "fBodyAccJerkmeanXsubject"             "fBodyAccJerkmeanYsubject"            
+ "fBodyAccJerkmeanZsubject"             "fBodyAccJerkstdXsubject"              "fBodyAccJerkstdYsubject"             
+ "fBodyAccJerkstdZsubject"              "fBodyAccJerkmeanFreqXsubject"         "fBodyAccJerkmeanFreqYsubject"        
+ "fBodyAccJerkmeanFreqZsubject"         "fBodyGyromeanXsubject"                "fBodyGyromeanYsubject"               
+ "fBodyGyromeanZsubject"                "fBodyGyrostdXsubject"                 "fBodyGyrostdYsubject"                
+ "fBodyGyrostdZsubject"                 "fBodyGyromeanFreqXsubject"            "fBodyGyromeanFreqYsubject"           
+ "fBodyGyromeanFreqZsubject"            "fBodyAccMagmeansubject"               "fBodyAccMagstdsubject"               
+ "fBodyAccMagmeanFreqsubject"           "fBodyBodyAccJerkMagmeansubject"       "fBodyBodyAccJerkMagstdsubject"       
+ "fBodyBodyAccJerkMagmeanFreqsubject"   "fBodyBodyGyroMagmeansubject"          "fBodyBodyGyroMagstdsubject"          
+ "fBodyBodyGyroMagmeanFreqsubject"      "fBodyBodyGyroJerkMagmeansubject"      "fBodyBodyGyroJerkMagstdsubject"      
+ "fBodyBodyGyroJerkMagmeanFreqsubject"
