@@ -254,16 +254,6 @@ Numeric variable.
 No unit of measurement.
 
 Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
-Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
-
-###tBodyAccmeanZactivity
-
-The mean of time domain body acceleration mean in Z direction per activity
-
-Numeric variable. 
-No unit of measurement.
-
-Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
 Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
 ###tBodyAccstdXactivity
@@ -626,3 +616,1114 @@ No unit of measurement.
 Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
 Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals 
 
+###tBodyGyroJerkMagstdactivity
+
+The mean of time domain body gyro jerk magnitude standard deviation per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals 
+
+###fBodyAccmeanXactivity
+
+The mean of frequency domain body acceleration mean in X direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyAccmeanYactivity
+
+The mean of frequency domain body acceleration mean in Y direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyAccmeanZactivity
+
+The mean of frequency domain body acceleration mean in Z direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyAccstdXactivity
+
+The mean of frequency domain body acceleration standard deviation in X direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyAccstdYactivity
+
+The mean of frequency domain body acceleration standard deviation in Y direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyAccstdZactivity
+
+The mean of frequency domain body acceleration standard deviation in Z direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyAccmeanFreqXactivity
+
+The mean of frequency domain body acceleration mean frequency in X direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency
+
+###fBodyAccmeanFreqYactivity
+
+The mean of frequency domain body acceleration mean frequency in Y direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency
+
+###fBodyAccmeanFreqZactivity
+
+The mean of frequency domain body acceleration mean frequency in Z direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency
+
+###fBodyAccJerkmeanXactivity
+
+The mean of frequency domain body acceleration jerk mean in X direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyAccJerkmeanYactivity
+
+The mean of frequency domain body acceleration jerk mean in Y direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyAccJerkmeanZactivity
+
+The mean of frequency domain body acceleration jerk mean in Z direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyAccJerkstdXactivity
+
+The mean of frequency domain body acceleration jerk standard deviation in X direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyAccJerkstdYactivity
+
+The mean of frequency domain body acceleration jerk standard deviation in Y direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyAccJerkstdZactivity
+
+The mean of frequency domain body acceleration jerk standard deviation in Z direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyAccJerkmeanFreqXactivity
+
+The mean of frequency domain body acceleration jerk mean frequency in X direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency.
+
+###fBodyAccJerkmeanFreqYactivity
+
+The mean of frequency domain body acceleration jerk mean frequency in Y direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency.
+
+###fBodyAccJerkmeanFreqZactivity
+
+The mean of frequency domain body acceleration jerk mean frequency in Z direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency.
+
+###fBodyGyromeanXactivity
+
+The mean of frequency domain body gyro mean in X direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyGyromeanYactivity
+
+The mean of frequency domain body gyro mean in Y direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyGyromeanZactivity
+
+The mean of frequency domain body gyro mean in Z direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyGyrostdXactivity
+
+The mean of frequency domain body gyro standard deviation in X direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyGyrostdYactivity
+
+The mean of frequency domain body gyro standard deviation in Y direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyGyrostdZactivity
+
+The mean of frequency domain body gyro standard deviation in Z direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyGyromeanFreqXactivity
+
+The mean of frequency domain body gyro mean frequency in X direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency
+
+###fBodyGyromeanFreqYactivity
+
+The mean of frequency domain body gyro mean frequency in Y direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency
+
+###fBodyGyromeanFreqZactivity
+
+The mean of frequency domain body gyro mean frequency in Z direction per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency
+
+###fBodyAccMagmeanactivity
+
+The mean of frequency domain body acceleration magnitude mean per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+
+###fBodyAccMagstdactivity
+
+The mean of frequency domain body acceleration magnitude standard deviation per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+
+###fBodyAccMagmeanFreqactivity
+
+The mean of frequency domain body acceleration magnitude mean frequency per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. Weighted average of the frequency components to obtain a mean frequency
+
+###fBodyBodyAccJerkMagmeanactivity
+
+The mean of frequency domain body acceleration jerk magnitude averages per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyBodyAccJerkMagstdactivity
+
+The mean of frequency domain body acceleration jerk magnitude standard deviations per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyBodyAccJerkMagmeanFreqactivity
+
+The mean of frequency domain body acceleration jerk magnitude mean frequencies per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Weighted average of the frequency components to obtain a mean frequency.
+
+###fBodyBodyGyroMagmeanactivity
+
+The mean of frequency domain body gyro magnitude averages per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. 
+
+###fBodyBodyGyroMagstdactivity
+
+The mean of frequency domain body gyro magnitude standard deviations per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. 
+
+###fBodyBodyGyroMagmeanFreqactivity
+
+The mean of frequency domain body gyro magnitude mean frequencies per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. Weighted average of the frequency components to obtain a mean frequency.
+
+###fBodyBodyGyroJerkMagmeanactivity
+
+The mean of frequency domain body gyro jerk magnitude averages per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyBodyGyroJerkMagstdactivity
+
+The mean of frequency domain body gyro jerk magnitude standard deviations per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyBodyGyroJerkMagmeanFreqactivity
+
+The mean of frequency domain body gyro jerk magnitude mean frequencies per activity
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Weighted average of the frequency components to obtain a mean frequency.
+
+###tBodyAccmeanXsubject
+
+The mean of time domain body acceleration mean in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+###tBodyAccmeanYsubject
+
+The mean of time domain body acceleration mean in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+###tBodyAccmeanZsubject
+
+The mean of time domain body acceleration mean in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+###tBodyAccstdXsubject
+
+The mean of time domain body acceleration standard deviation in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+###tBodyAccstdYsubject
+
+The mean of time domain body acceleration standard deviation in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+###tBodyAccstdZsubject
+
+The mean of time domain body acceleration standard deviation in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+###tGravityAccmeanXsubject
+
+The mean of time domain gravity acceleration mean in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+###tGravityAccmeanYsubject
+
+The mean of time domain gravity acceleration mean in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+###tGravityAccmeanZsubject
+
+The mean of time domain gravity acceleration mean in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+###tGravityAccstdXsubject
+
+The mean of time domain gravity acceleration standard deviation in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+###tGravityAccstdYsubject
+
+The mean of time domain gravity acceleration standard deviation in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+###tGravityAccstdZsubject
+
+The mean of time domain gravity acceleration standard deviation in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+###tBodyAccJerkmeanXsubject
+
+The mean of time domain body acceleration jerk mean in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###tBodyAccJerkmeanYsubject
+
+The mean of time domain body acceleration jerk mean in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###tBodyAccJerkmeanZsubject
+
+The mean of time domain body acceleration jerk mean in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###tBodyAccJerkstdXsubject
+
+The mean of time domain body acceleration jerk standard deviation in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###tBodyAccJerkstdYsubject
+
+The mean of time domain body acceleration jerk standard deviation in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###tBodyAccJerkstdZsubject
+
+The mean of time domain body acceleration jerk standard deviation in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###tBodyGyromeanXsubject
+
+The mean of time domain body gyro mean in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
+
+###tBodyGyromeanYsubject
+
+The mean of time domain body gyro mean in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
+
+###tBodyGyromeanZsubject
+
+The mean of time domain body gyro mean in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
+
+###tBodyGyrostdXsubject
+
+The mean of time domain body gyro standard deviation in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
+
+###tBodyGyrostdYsubject
+
+The mean of time domain body gyro standard deviation in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
+
+###tBodyGyrostdZsubject
+
+The mean of time domain body gyro standard deviation in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
+
+###tBodyGyroJerkmeanXsubject
+
+The mean of time domain body gyro jerk mean in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###tBodyGyroJerkmeanYsubject
+
+The mean of time domain body gyro jerk mean in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###tBodyGyroJerkmeanZsubject
+
+The mean of time domain body gyro jerk mean in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###tBodyGyroJerkstdXsubject
+
+The mean of time domain body gyro jerk standard deviation in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###tBodyGyroJerkstdYsubject
+
+The mean of time domain body gyro jerk standard deviation in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###tBodyGyroJerkstdZsubject
+
+The mean of time domain body gyro jerk standard deviation in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###tBodyAccMagmeansubject
+
+The mean of time domain body acceleration magnitude mean per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+
+###tBodyAccMagstdsubject
+
+The mean of time domain body acceleration magnitude standard deviation per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+
+###tGravityAccMagmeansubject
+
+The mean of time domain gravity acceleration magnitude mean per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+
+###tGravityAccMagstdsubject
+
+The mean of time domain gravity acceleration magnitude standard deviation per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+
+###tBodyAccJerkMagmeansubject
+
+The mean of time domain body acceleration jerk magnitude mean per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals 
+
+###tBodyAccJerkMagstdsubject
+
+The mean of time domain body acceleration jerk magnitude standard deviation per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###tBodyGyroMagmeansubject
+
+The mean of time domain body gyro magnitude mean per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. 
+
+###tBodyGyroMagstdsubject
+
+The mean of time domain body gyro magnitude standard deviation per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. 
+
+###tBodyGyroJerkMagmeansubject
+
+The mean of time domain body gyro jerk magnitude mean per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals 
+
+###tBodyGyroJerkMagstdsubject
+
+The mean of time domain body gyro jerk magnitude standard deviation per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: these time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals 
+
+###fBodyAccmeanXsubject
+
+The mean of frequency domain body acceleration mean in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyAccmeanYsubject
+
+The mean of frequency domain body acceleration mean in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyAccmeanZsubject
+
+The mean of frequency domain body acceleration mean in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyAccstdXsubject
+
+The mean of frequency domain body acceleration standard deviation in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyAccstdYsubject
+
+The mean of frequency domain body acceleration standard deviation in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyAccstdZsubject
+
+The mean of frequency domain body acceleration standard deviation in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyAccmeanFreqXsubject
+
+The mean of frequency domain body acceleration mean frequency in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency
+
+###fBodyAccmeanFreqYsubject
+
+The mean of frequency domain body acceleration mean frequency in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency
+
+###fBodyAccmeanFreqZsubject
+
+The mean of frequency domain body acceleration mean frequency in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency
+
+###fBodyAccJerkmeanXsubject
+
+The mean of frequency domain body acceleration jerk mean in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyAccJerkmeanYsubject
+
+The mean of frequency domain body acceleration jerk mean in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyAccJerkmeanZsubject
+
+The mean of frequency domain body acceleration jerk mean in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyAccJerkstdXsubject
+
+The mean of frequency domain body acceleration jerk standard deviation in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyAccJerkstdYsubject
+
+The mean of frequency domain body acceleration jerk standard deviation in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyAccJerkstdZsubject
+
+The mean of frequency domain body acceleration jerk standard deviation in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyAccJerkmeanFreqXsubject
+
+The mean of frequency domain body acceleration jerk mean frequency in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency.
+
+###fBodyAccJerkmeanFreqYsubject
+
+The mean of frequency domain body acceleration jerk mean frequency in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency.
+
+###fBodyAccJerkmeanFreqZsubject
+
+The mean of frequency domain body acceleration jerk mean frequency in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency.
+
+###fBodyGyromeanXsubject
+
+The mean of frequency domain body gyro mean in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyGyromeanYsubject
+
+The mean of frequency domain body gyro mean in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyGyromeanZsubject
+
+The mean of frequency domain body gyro mean in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyGyrostdXsubject
+
+The mean of frequency domain body gyro standard deviation in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyGyrostdYsubject
+
+The mean of frequency domain body gyro standard deviation in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyGyrostdZsubject
+
+The mean of frequency domain body gyro standard deviation in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. 
+
+###fBodyGyromeanFreqXsubject
+
+The mean of frequency domain body gyro mean frequency in X direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency
+
+###fBodyGyromeanFreqYsubject
+
+The mean of frequency domain body gyro mean frequency in Y direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency
+
+###fBodyGyromeanFreqZsubject
+
+The mean of frequency domain body gyro mean frequency in Z direction per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. Weighted average of the frequency components to obtain a mean frequency
+
+###fBodyAccMagmeansubject
+
+The mean of frequency domain body acceleration magnitude mean per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+
+###fBodyAccMagstdsubject
+
+The mean of frequency domain body acceleration magnitude standard deviation per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+
+###fBodyAccMagmeanFreqsubject
+
+The mean of frequency domain body acceleration magnitude mean frequency per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. Weighted average of the frequency components to obtain a mean frequency
+
+###fBodyBodyAccJerkMagmeansubject
+
+The mean of frequency domain body acceleration jerk magnitude averages per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyBodyAccJerkMagstdsubject
+
+The mean of frequency domain body acceleration jerk magnitude standard deviations per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyBodyAccJerkMagmeanFreqsubject
+
+The mean of frequency domain body acceleration jerk magnitude mean frequencies per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Weighted average of the frequency components to obtain a mean frequency.
+
+###fBodyBodyGyroMagmeansubject
+
+The mean of frequency domain body gyro magnitude averages per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. 
+
+###fBodyBodyGyroMagstdsubject
+
+The mean of frequency domain body gyro magnitude standard deviations per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. 
+
+###fBodyBodyGyroMagmeanFreqsubject
+
+The mean of frequency domain body gyro magnitude mean frequencies per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. Weighted average of the frequency components to obtain a mean frequency.
+
+###fBodyBodyGyroJerkMagmeansubject
+
+The mean of frequency domain body gyro jerk magnitude averages per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyBodyGyroJerkMagstdsubject
+
+The mean of frequency domain body gyro jerk magnitude standard deviations per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+###fBodyBodyGyroJerkMagmeanFreqsubject
+
+The mean of frequency domain body gyro jerk magnitude mean frequencies per subject
+
+Numeric variable. 
+No unit of measurement.
+
+Notes: The signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. A Fast Fourier Transform (FFT) was applied to these signals to produce frequency domain signals. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Weighted average of the frequency components to obtain a mean frequency.
