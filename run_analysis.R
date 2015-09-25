@@ -2,12 +2,12 @@ run <- function() {
 
 # load the train data
 value_train <- read.table("~/Data/UCI HAR Dataset/train/X_train.txt")
-activity_train <- read.table("~/Data/UCI HAR Dataset/train//y_train.txt")
+activity_train <- read.table("~/Data/UCI HAR Dataset/train/y_train.txt")
 subject_train <- read.table("~/Data/UCI HAR Dataset/train/subject_train.txt")
 
 # load the test data
 value_test <- read.table("~/Data/UCI HAR Dataset/test/X_test.txt")
-activity_test <- read.table("~/Data/UCI HAR Dataset/test//y_test.txt")
+activity_test <- read.table("~/Data/UCI HAR Dataset/test/y_test.txt")
 subject_test <- read.table("~/Data/UCI HAR Dataset/test/subject_test.txt")
 
 # load the variable names
@@ -38,7 +38,7 @@ traindata <- cbind(subject_train, activity_train, value_train)
 testdata <- cbind(subject_test, activity_test, value_test)
 
 # assign activity label to make easy reading
-label <- read.table("C:/Users/Long Nguyen/My-1st-Project/Data/UCI HAR Dataset/activity_labels.txt")
+label <- read.table("~/Data/UCI HAR Dataset/activity_labels.txt")
 label <- mutate(label, activity = c("walk","walkupstair","walkdownstair","sit","stand","lay"))
 traindata$activity <- factor(traindata$activity, levels = c(1,2,3,4,5,6), labels = label$activity)
 testdata$activity <- factor(testdata$activity, levels = c(1,2,3,4,5,6), labels = label$activity)
@@ -84,6 +84,20 @@ for (e in 1:length(newdb)) {
 # arrange the columns
 col_indx <- grep("activity", names(new))
 new <- new[,c(1, col_indx, (1:ncol(new))[-col_indx][-1])]
+
+tonumeric <- function(x){
+  result <- as.numeric(as.character(x))
+  result
+}
+
+# change all variables to be numeric
+temp <- select(new, -(subjectid:activity))
+temp <- sapply(temp, tonumeric)
+new <- cbind(select(new, (subjectid:activity)),temp)
+
+# change subject id and activity column to factor for ease in further analysis and indexing
+new$subjectid <- as.factor(new$subjectid)
+new$activity <- factor(new$activity, levels = c("walk", "walkupstair", "walkdownstair", "sit", "stand", "lay"))
 
 # final data set (part 5)
 new
