@@ -1,9 +1,19 @@
-#Codebook on run_analysis.R
-
+---
+title: "Codebook on run_analysis.R"
+author: "Long Nguyen"
+date: "09/24/2015"
+output:
+  html_document:
+    keep_md: yes
+---
+#Project Description
 Setup, there is a Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors. I want to merge these data sets into one single data set, extract the mean and standard deviation measurement, and calculate the mean of these variables for each activity and each subject.
 
+#Study design and data processing
+##Collection of the raw data
+
 Raw data is: inertial signals which include the total and body acceleration signals in the X-Y-Z direction and body gyro signals in the X-Y-Z direction. These raw signals are then used to calculate the following signals:
-"-XYZ" is used to denote 3-axial signals in the X, Y and Z directions.
+"XYZ" is used to denote 3-axial signals in the X, Y and Z directions.
 ```
 tBodyAcc-XYZ : time domain body acceleration
 tGravityAcc-XYZ : time domain gravity acceleration
@@ -96,7 +106,9 @@ The subject id, the activities, the signal variables data are then combined to c
 10299 observations (rows) record of each activity for each subject
 563 columns, which includes sunject id, activity, and 561 signal variables
 
-The names of variables are then processed to remove "-" and "()" for ease in further analysis and indexing
+The names of variables are then processed to remove "-" and "()" for ease in further analysis and indexing.
+
+Subject id is converted to factor and the signal variables are converted to numeric for downstream analysis.
 
 ##Guide to create tidy data set with the average of each variable for each activity and each subject.
 
