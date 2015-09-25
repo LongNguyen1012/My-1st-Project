@@ -3,7 +3,7 @@
 Setup, there is a Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors. I want to merge these data sets into one single data set, extract the mean and standard deviation measurement, and calculate the mean of these variables for each activity and each subject.
 
 Raw data is: inertial signals which include the total and body acceleration signals in the X-Y-Z direction and body gyro signals in the X-Y-Z direction. These raw signals are then used to calculate the following signals:
->'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+"-XYZ" is used to denote 3-axial signals in the X, Y and Z directions.
 ```
 tBodyAcc-XYZ : time domain body acceleration
 tGravityAcc-XYZ : time domain gravity acceleration
@@ -108,7 +108,6 @@ subject_mean: this data set contains the mean of each signal variable in "finald
 In activity_mean data set, each variable name is modified to include "activity" at the end to note that this is the measurement for an activity, not a subject. Also, in subject_mean data set, each variable name is modified to include "subject" at the end to note that this is the measurement for a subject, not an activity.
 
 Then two data sets are combined by the following method: for each subject id, there will be 6 associated activities(walk, walkupstair, walkdownstair, sit, stand, lay). These activities will be followed by the mean measurements for each activity, and following that is the mean measurement for that particular subject:
-
 ```
 subjectid < activity < mean1-activity < mean2-activity < mean1-subject < mean2-subject
 1           walk                  a                   g               A               B
@@ -118,7 +117,6 @@ subjectid < activity < mean1-activity < mean2-activity < mean1-subject < mean2-s
 1           stand                 e                   k               A               B
 1           lay                   f                   l               A               B
 ```
-
 Subject id and activity column are changed to factor for ease in further analysis and indexing
 
 The final data set will be stored in data set "new" and export to newdata.txt
@@ -130,10 +128,10 @@ The dimension:
 30 subject x 6 activities = 180 observations (rows) 
 160 variables (columns): include subject id, activity, mean of each variables for each activity, mean of each variable for each subject
 
-subject id is a factor vector with levels 1-30 indicate the id for each subject.
-activity is a factor with levels: walk, walkupstair, walkdownstair, sit, stand, lay
-list of variables with "activity" at the end of name: indicate the mean of this particular measurement for each variable
-list of variables with "subject" at the end of name: indicate the mean of this particular measurement for each subject
+Subject id is a factor vector with levels 1-30 indicate the id for each subject.
+Activity is a factor with levels: walk, walkupstair, walkdownstair, sit, stand, lay.
+List of variables with "activity" at the end of name: indicate the mean of this particular measurement for each variable.
+List of variables with "subject" at the end of name: indicate the mean of this particular measurement for each subject.
 
 The example data structure is as follow:
 ```
